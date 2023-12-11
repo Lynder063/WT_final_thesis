@@ -1,6 +1,7 @@
 # Final thesis from Web technologies
 
 ## TODO
+
 - [ ] Add to [Installation](#installation), step to import database
   - [ ] Export table and add into repository
   - [ ] Create import command
@@ -21,7 +22,7 @@ Create a web application using advanced programming methods. Ideally using a fra
 
 I chose the topic, managing products in the store using the web interface in symfony 7 with the school mysql server.
 
-## Installation
+## 🖥️ Installation
 
 1. Download all project files
 
@@ -38,5 +39,5 @@ composer install
 3. Running web app
 
 ```bash
-symfony server:start
+symfony server:start -d
 ```
