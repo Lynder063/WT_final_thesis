@@ -27,7 +27,8 @@ I chose the topic, managing products in the store using the web interface in sym
 1. Download all project files
 
 ```bash
-git clone https://github.com/Lynder063/WT_final_thesis.git
+git clone https://github.com/Lynder063/WT_final_thesis.git 
+cd WT_final_thesis/
 ```
 
 2. Make Composer install the project's dependencies into vendor/
