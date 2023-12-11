@@ -10,17 +10,12 @@
 
 ## Menu
 
-- [Assignment](#assignment)
 - [About](#about)
 - [Installation](#installation)
 
-## Assignment
-
-Create a web application using advanced programming methods. Ideally using a framework (symfony, nette,...) and using a database. The topic needs to be consulted and approved by the tutor. Sample work will be available by appointment.
-
 ## About
 
-I chose the topic, managing products in the store using the web interface in symfony 7 with the school mysql server.
+Create a web application using advanced programming methods. Ideally using a framework (symfony, nette,...) and using a database. The topic needs to be consulted and approved by the tutor. Sample work will be available by appointment.
 
 ## 🖥️ Installation
 
