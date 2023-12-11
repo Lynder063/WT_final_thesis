@@ -36,7 +36,9 @@ git clone https://github.com/Lynder063/WT_final_thesis.git
 composer install
 ```
 
-3. Running web app
+3. Import `malinda.sql` to your database
+
+4. Running web app
 
 ```bash
 symfony server:start -d
