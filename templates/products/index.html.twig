@@ -1,0 +1,31 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Products{% endblock %}
+
+{% block body %}
+<div class="container">
+    <h2>Product List</h2>
+
+    <div class="row">
+        {% for product in products %}
+            <div class="col-md-4 mb-4" onclick="redirectToShow({{ product.id }})">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ product.name }}</h5>
+                        <p class="card-text">{{ product.description }}</p>
+                        <p class="card-text"><strong>Rating:</strong> {{ product.rating }}</p>
+                    </div>
+                </div>
+            </div>
+        {% else %}
+            <p>No records found.</p>
+        {% endfor %}
+    </div>
+
+    <script>
+        function redirectToShow(productId) {
+            window.location.href = "{{ path('app_products_show', {'id': '__productId__'}) }}".replace('__productId__', productId);
+        }
+    </script>
+</div>
+{% endblock %}
