@@ -2,9 +2,9 @@
 
 ## TODO
 
-- [ x ] Add to [Installation](#installation), step to import database
-  - [ x ] Export table and add into repository
-  - [ x ] Create import command
+- [x] Add to [Installation](#installation), step to import database
+  - [x] Export table and add into repository
+  - [x] Create import command
   - [ ] Delete .env files
 - [ ] Make the project more user friendly
 
