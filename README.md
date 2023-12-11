@@ -38,6 +38,10 @@ composer install
 
 3. Import `malinda.sql` to your database
 
+```sql
+mysql -u [username] -p [database_name] < malinda.sql
+```
+
 4. Running web app
 
 ```bash
